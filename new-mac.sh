@@ -1,6 +1,6 @@
 #install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)";
-#this will be the one liner command you will every need to update all the follows applications in the futre
+#this will be the one liner command you will every need to update all the follows applications in the future
 brew update; brew upgrade;
 
 #install mongodb
