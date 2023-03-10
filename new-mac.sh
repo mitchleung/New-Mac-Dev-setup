@@ -37,8 +37,11 @@ brew tap mongodb/brew;brew update;brew install mongodb-community@6.0;
 #sloth shows all open files and sockets in use
 #macfuse in case u need to mount volumes not supported by #macos
 #xquartz if you need X11, e.g. #xeyes 👀
+#itsycal shows tiny calendar at menu bar
+#signal-messenger - secure messenger
+#imageoptim - compress images
 
-brew install --cask --no-quarantine barrier numi rectangle openvpn-connect macs-fan-control satellite-eyes brooklyn monitorcontrol menuwhere whalebird gimp inkscape handbrake vlc firefox google-chrome cyberduck diffmerge docker owasp-zap discord tableplus mongodb-compass cinebench geekbench grandperspective sloth xquartz;
+brew install --cask --no-quarantine barrier numi rectangle openvpn-connect macs-fan-control satellite-eyes brooklyn monitorcontrol menuwhere whalebird gimp inkscape handbrake vlc firefox google-chrome cyberduck diffmerge docker owasp-zap discord tableplus mongodb-compass cinebench geekbench grandperspective sloth itsycal signal-messenger imageoptim;
 
 #install command line tools
 #nvm for multiple node version for projects, also setup its path
@@ -46,7 +49,7 @@ brew install --cask --no-quarantine barrier numi rectangle openvpn-connect macs-
 #neofetch shows system information
 #speedtest-cli - command line to speedtest.net
 
-brew install nvm btop neofetch speedtest-cli;
+brew install nvm btop neofetch speedtest-cli cmake protobuf rust python@3.10 wget ffmpeg influxdb;
 
 #optional oh-my-zsh and p10k
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
