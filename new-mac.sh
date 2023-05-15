@@ -40,8 +40,14 @@ brew tap mongodb/brew;brew update;brew install mongodb-community@6.0;
 #itsycal shows tiny calendar at menu bar
 #signal-messenger - secure messenger
 #imageoptim - compress images
+#postman - for REST API testing
+#appzapper - for app management
+#aldente - for battery management
+#miniconda - for python lib
+#sonic-pi - for music programming
+#duet - for remote display
 
-brew install --cask --no-quarantine barrier numi rectangle openvpn-connect macs-fan-control satellite-eyes brooklyn monitorcontrol menuwhere whalebird gimp inkscape handbrake vlc firefox google-chrome cyberduck diffmerge docker owasp-zap discord tableplus mongodb-compass cinebench geekbench grandperspective sloth itsycal signal-messenger imageoptim;
+brew install --cask --no-quarantine barrier numi rectangle openvpn-connect macs-fan-control satellite-eyes brooklyn monitorcontrol menuwhere whalebird gimp inkscape handbrake vlc firefox google-chrome cyberduck diffmerge docker owasp-zap discord tableplus mongodb-compass cinebench geekbench grandperspective sloth itsycal signal-messenger imageoptim postman appzapper aldente miniconda sonic-pi duet;
 
 #install command line tools
 #nvm for multiple node version for projects, also setup its path
