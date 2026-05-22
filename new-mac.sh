@@ -52,16 +52,19 @@ brew tap mongodb/brew;brew update;brew install mongodb-community@6.0;
 # - **zed** - fast, collaborative code editor designed for performance.
 # - **portkiller** - detect and kill processes using a specific port.
 # - **visualdiffer** - visual diff tool for comparing files and folders.
+# - **Goose** - open source AI agent
 
-brew install --cask aerial aldente anytype appzapper arc audacity calibre cyberduck devtoys diffmerge discord docker duet firefox freetube gimp google-chrome grandperspective handbrake imageoptim inkscape itsycal thaw krita macs-fan-control miniconda mongodb-compass monitorcontrol mx-power-gadget numi obs openemu openvpn-connect oracle-jdk pika postman prepros rectangle slack sloth upscayl vlc zed portkiller
+brew install --cask aerial aldente anytype appzapper arc audacity calibre cyberduck devtoys diffmerge discord docker duet firefox freetube gimp google-chrome grandperspective handbrake imageoptim inkscape itsycal thaw krita macs-fan-control miniconda mongodb-compass monitorcontrol mx-power-gadget numi obs openemu openvpn-connect oracle-jdk pika postman prepros rectangle slack sloth upscayl vlc zed portkiller block-goose;
 
 #install command line tools
-#nvm for multiple node version for projects, also setup its path
-#btop shows network, cpu usage
-#htop shows network, cpu usage
-#speedtest - command line to speedtest.net
+# - **nvm** - for multiple node version for projects, also setup its path
+# - **btop** - shows network, cpu usage
+# - **htop** - shows network, cpu usage
+# - **speedtest** - command line to speedtest.net
+# - **Opencode** - open source AI coding agent
 
-brew install nvm btop htop speedtest cmake rust python@3.10 wget ffmpeg;
+brew install nvm btop htop speedtest cmake rust python@3.10 wget ffmpeg anomalyco/tap/opencode;
+
 
 #optional oh-my-zsh and p10k
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
